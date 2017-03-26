@@ -1,4 +1,4 @@
-## Canvas
+# Canvas
 
 The Canvas is the area that all UI elements should be inside.The Canvas is a Game Object with a Canvas component on it, and all UI elements must be children of such a canvas.
 
@@ -8,7 +8,7 @@ The Canvas area is shown as rectangle in the Scene View. This makes it easy to p
 
 ## Draw order of elements
 
-To change which element appear on top of other elements, simply reorder the elements in the Hierachy by dragging them. The order can also be controlled from scripting by using these methods on the Transform component: ``` SetAsFirstSibing, SetAsLastSibling, and SetSiblingIndex ```.
+To change which element appear on top of other elements, simply reorder the elements in the Hierachy by dragging them. The order can also be controlled from scripting by using these methods on the Transform component: ```SetAsFirstSibing, SetAsLastSibling, and SetSiblingIndex```.
 
 ## Render Modes
 
@@ -25,3 +25,5 @@ This is similar to *Screen Space - Overlay*, but in this render mode the Canvas 
 ### World Space
 
 In this render mode, the Canvas will behave as any other object in the scene. The size of the Canvas can be set mamually using its Rect Transform, and UI elements will render in front of or behind other objects in the scene based on 3D placement. This is useful for UIs that meant to be a part of the world. This is also known as a "diegetic interface".
+
+> [参考一](http://www.jianshu.com/p/dbefa746e50d)

@@ -1,4 +1,4 @@
-## The Rect Tool
+# The Rect Tool
 
 Just like the other tools, the Rect Tool uses the current pivot mode and space, set in the toolbar. When working with UI it's usually a good idea to keep those set to Pivot and Local.
 
